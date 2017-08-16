@@ -1,0 +1,21 @@
+There are three main modules
+Project Modules :
+1. Roles :
+	Admin : admin will have a username and password
+		admin can create an operator, remove an operator
+		admin can add/remove/update new vehicle/spare parts make/model
+	Operator : Operator will also have a user name and password
+		can update stock of cars and spareparts can sell items
+		 
+2. Vehicle Orderd From Company : 
+	These can be added and deleted by operator
+	fields : Vehicle, model, price, tax, profit
+
+3. Spare Parts:
+	These can be added and deleted by operator
+	for which vehicle, spare part ID, price, numbers, tax
+All changes/updates should be consistent in database.
+
+Should be possible to view reports, between certain dates.
+Reports can be stock added, sold of vehicles or spare parts. 
+Each record, need to have which user has performed change, along with date/time.
